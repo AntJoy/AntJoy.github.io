@@ -51,7 +51,7 @@ body {
   font-family: 'Helvetica Neue', Helvetica, Arial, serif;
   font-size: 1em;
   line-height: 1.5;
-  color: #6d6d6d;
+  color: #000000;
   text-shadow: 0 1px 0 rgba(255, 255, 255, 0.8);
   background: #e7e7e7 url(../images/body-bg.png) 0 0 repeat;
 }
@@ -119,7 +119,7 @@ a.button {
   background: -o-linear-gradient(top,  #fdfdfd 0%,#f2f2f2 100%); /* Opera 11.10+ */
   background: -ms-linear-gradient(top,  #fdfdfd 0%,#f2f2f2 100%); /* IE10+ */
   background: linear-gradient(top,  #fdfdfd 0%,#f2f2f2 100%); /* W3C */
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fdfdfd', endColorstr='#f2f2f2',GradientType=0 ); /* IE6-9 */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000000', endColorstr='#000000',GradientType=0 ); /* IE6-9 */
   border-top: solid 1px #cbcbcb;
   border-right: solid 1px #b7b7b7;
   border-bottom: solid 1px #b3b3b3;
@@ -134,12 +134,12 @@ a.button {
 a.button:hover {
   background: #fafafa; /* Old browsers */
   background: -moz-linear-gradient(top,  #fdfdfd 0%, #f6f6f6 100%); /* FF3.6+ */
-  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#fdfdfd), color-stop(100%,#f6f6f6)); /* Chrome,Safari4+ */
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#000000), color-stop(100%,#000000)); /* Chrome,Safari4+ */
   background: -webkit-linear-gradient(top,  #fdfdfd 0%,#f6f6f6 100%); /* Chrome10+,Safari5.1+ */
   background: -o-linear-gradient(top,  #fdfdfd 0%,#f6f6f6 100%); /* Opera 11.10+ */
   background: -ms-linear-gradient(top,  #fdfdfd 0%,#f6f6f6 100%); /* IE10+ */
   background: linear-gradient(top,  #fdfdfd 0%,#f6f6f6, 100%); /* W3C */
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fdfdfd', endColorstr='#f6f6f6',GradientType=0 ); /* IE6-9 */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000000', endColorstr='#000000',GradientType=0 ); /* IE6-9 */
   border-top: solid 1px #b7b7b7;
   border-right: solid 1px #b3b3b3;
   border-bottom: solid 1px #b3b3b3;
@@ -169,26 +169,26 @@ code, pre {
   margin-bottom: 30px;
   font-family: Monaco, "Bitstream Vera Sans Mono", "Lucida Console", Terminal;
   font-size: 14px;
-  color: #222;
+  color: #000000;
 }
 
 code {
   padding: 0 3px;
-  background-color: #f2f2f2;
+  background-color: #000000;
   border: solid 1px #ddd;
 }
 
 pre {
   padding: 20px;
   overflow: auto;
-  color: #f2f2f2;
+  color: #000000;
   text-shadow: none;
-  background: #303030;
+  background: #000000;
 }
 pre code {
   padding: 0;
-  color: #f2f2f2;
-  background-color: #303030;
+  color: #000000;
+  background-color: #000000;
   border: none;
 }
 
@@ -248,30 +248,30 @@ h2 {
   margin-bottom: 8px;
   font-size: 22px;
   font-weight: bold;
-  color: #303030;
+  color: #000000;
 }
 
 h3 {
   margin-bottom: 8px;
   font-size: 18px;
   font-weight: bold;
-  color: #d5000d;
+  color: #000000;
 }
 
 h4 {
   font-size: 16px;
   font-weight: bold;
-  color: #303030;
+  color: #000000;
 }
 
 h5 {
   font-size: 1em;
-  color: #303030;
+  color: #000000;
 }
 
 h6 {
   font-size: .8em;
-  color: #303030;
+  color: #000000;
 }
 
 p {
@@ -315,15 +315,15 @@ footer {
   padding-bottom: 30px;
   margin-top: 40px;
   font-size: 13px;
-  color: #aaa;
+  color: #000000;
   background: transparent url('../images/hr.png') 0 0 no-repeat;
 }
 
 footer a {
-  color: #666;
+  color: #000000;
 }
 footer a:hover {
-  color: #444;
+  color: #000000;
 }
 
 /* MISC */
